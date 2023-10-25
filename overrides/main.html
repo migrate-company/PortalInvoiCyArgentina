@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <html>
+    <div class="extra_HEADER row mx-auto">
+      <a class="a_Sou_Cliente"><img src="http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB/img/img_btn.png">YA SOY CLIENTE</a>
+      <a class="a_Suporte">SOPORTE</a> 
+    </div>
+  </html>
+{% endblock %}
+
+
+{% block footer %}
+  <html>
+    <div class="extra_FOOTER">
+      <div class="abrir_Chamado">
+        <h1>¿No encontraste lo que necesitabas?</h1>
+        <p>Envíe un correo electrónico a <b>soporte@migrate.info</b> o abra un ticket usando el botón a continuación:</p>
+        <a class="abrir_Chamado_BTN" target="_blank" href="https://migrate.movidesk.com/Account/Login"><img src="http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB/img/paper_airplane.png"><div class="abrir_Chamado_BTN_TXT">ABRIR UN TICKET</div></a>
+      </div>
+      <img class ="MigrateIMG" src="http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB/img/Logo Migrate.png">
+    </div>
+  </html>  
+  {{ super() }}
+{% endblock %}
