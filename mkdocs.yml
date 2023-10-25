@@ -1,12 +1,12 @@
 site_name: Invoicy Argentina
-site_url: http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB
+site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 
 theme:
-  logo: http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB/img/InvoicyforDev.png
+  logo: https://migrate-company.github.io/PortalInvoiCyArgentina/img/InvoicyforDev.png
   name: material
   locale: pt_BR
   custom_dir: overrides
-  favicon: http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB/img/favicon.png
+  favicon: https://migrate-company.github.io/PortalInvoiCyArgentina/img/favicon.png
   palette:
     - scheme: default
       toggle:

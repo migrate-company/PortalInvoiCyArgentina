@@ -41,7 +41,7 @@ Duis malesuada sapien eget libero egestas aliquam. Curabitur in ipsum vel urna t
 ¡Aquí el movimiento no para!
 
 <div class="autor">
-    <img alt="Avatar do autor" src="http://127.0.0.1:8000/MKDOCS_DEMO_GITHUB/img/img_autor.png">
+    <img alt="Avatar do autor" src="https://migrate-company.github.io/PortalInvoiCyArgentina/img/img_autor.png">
     <div class="publi_Por">
         <h2>Publicado por: <a href="https://desenvolvedores.migrate.info/author/brunakalschne/" target="_blank"  title="Posts de brunakalschne">brunakalschne</a></h2>
     </div>
