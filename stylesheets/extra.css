@@ -1,0 +1,393 @@
+/* Background color shades */
+[data-md-color-scheme="default"] {
+    --md-default-bg-color: #F5F5F5;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: #272b32;
+}
+
+
+/* Main content (everything that is not footer or header */
+.md-main {
+    margin-bottom: 2em;
+}
+
+
+/* Code block color shades */
+[data-md-color-scheme="default"] {
+    --md-code-bg-color: #D5D7E2;
+    --md-code-fg-color: #21222C;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-code-bg-color: #21222C;
+    --md-code-fg-color: #D5D7E2;
+}
+
+
+:root > * {
+  /* Primary color shades */
+  --md-primary-fg-color: #3F5364;
+  --md-primary-bg-color--light:  #F5F5F5;
+  --md-primary-bg-color--dark:  #F5F5F5;
+
+  /* Accent color shades */
+  --md-accent-fg-color: #FF804C;
+  --md-footer-bg-color: #3F5364;
+  --md-footer-bg-color--dark: #3F5364;
+}
+
+
+/* Header logo */
+.md-header__button.md-logo img {
+    height: 5em;
+}
+
+
+/* Hide site title in header */
+.md-header__title .md-ellipsis{
+    display: none;
+}
+
+.md-header__title--active .md-ellipsis{
+    display: block;
+}
+
+
+/* Text links */
+.md-typeset a {
+    color: #FF804C;
+    text-decoration: underline;
+}
+
+.md-typeset a:hover {
+    color: #f59b78;
+}
+
+
+/* Nav links */
+.md-nav__item .md-nav__link--active {
+    color: #FF804C;
+}
+
+.md-nav__item a:hover{
+    color: #f59b78;
+}
+
+
+/* Buttons */
+.md-typeset .md-button {
+    color: #FF804C;
+}
+
+.md-typeset .md-button--primary {
+    background-color: #FF804C;
+}
+
+
+/* index.md */
+.inicio {
+    display: block;
+    width: 100%;
+}
+
+.p_inicio {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.img_inicio {
+    display: inline-block;
+    width: 48%;
+}
+
+.row_essencial {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+.row_essencial img {
+    width: 28%;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.row_essencial img:hover {
+    transform:scale(1.1);
+    rotate: 10deg;
+}
+
+.img_descubraforma img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 3em;
+}
+
+.orange_hash {
+    color: #FF804C;
+}
+
+.row_maisconteudo {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+.row_maisconteudo img {
+    width: 28%;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.row_maisconteudo img:hover {
+    transform:scale(1.1);
+    rotate: 10deg;
+}
+
+.vermais {
+    text-align: center;
+}
+
+.vermais a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img_invoicymarket img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 3em;
+}
+
+
+/* Data localizada abaixo do h1 */
+.data_Artigo {
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+/* Imagens da aba Release Notes do Invoicy */
+.img_ReleaseNotes {
+    display: block;
+    margin: auto;
+}
+
+
+/* Aba de créditos à autora e comentários da página */
+.autor {
+    float: left;
+    margin-top: 5em;
+    width: 17em;
+}
+
+.autor a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.autor img {
+    width: 150px;
+    border-radius: 10em;
+}
+
+.publi_Por {
+    margin-top: -2em;
+}
+
+.publi_Por a{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.comentarios {
+    float: right;
+    margin-top: 5em;
+    width: 25em;
+}
+
+.form_comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form_comentarios_comment textarea:focus-visible{
+    outline: none;
+}
+
+[data-md-color-scheme="slate"] .form_comentarios_comment textarea {
+    width: 100%;
+    background-color: #272b32;
+}
+
+.form_comentarios_nome {
+    width: 40%;
+}
+
+.form_comentarios_nome input {
+    border: 1px solid rgb(118, 118, 118);
+}
+
+[data-md-color-scheme="slate"] .form_comentarios_nome input {
+    border: 1px solid rgb(118, 118, 118);
+    background-color: #272b32;
+}
+
+.form_comentarios_email {
+    width: 40%;
+}
+
+.form_comentarios_email input {
+    border: 1px solid rgb(118, 118, 118);
+}
+
+[data-md-color-scheme="slate"] .form_comentarios_email input {
+    border: 1px solid rgb(118, 118, 118);
+    background-color: #272b32;
+}
+
+.form_comentarios_cookie_checkbox label {
+    text-align: center;
+    font-size: 15px;
+}
+
+.form_comentarios_submit input {
+    margin-top: 2em;
+    border-radius: 5rem;
+    color: #F5F5F5;
+    background-color: #FF804C;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0.625em 2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.form_comentarios_submit :hover {
+    background-color: #FF804C;
+    color: #F5F5F5;
+    transform:scale(1.1);
+}
+
+
+/* main.html Announce bar (over header)*/
+.extra_HEADER {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.extra_HEADER img{
+    vertical-align: middle;
+    margin-bottom: 0.1em;
+    margin-left: -0.5em;
+    margin-right: 1em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.extra_HEADER .a_Sou_Cliente {
+    text-decoration: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 5rem;
+    color: #F5F5F5;
+    background-color: #FF804C;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.625em 2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.extra_HEADER .a_Sou_Cliente:hover{
+    background-color: #FF804C;
+    color: #F5F5F5;
+    transform:scale(1.1);
+}
+
+.extra_HEADER .a_Suporte {
+    text-decoration: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 5rem;
+    color: #F5F5F5;
+    background-color: #3DCCDF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.625em 2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.extra_HEADER .a_Suporte:hover{
+    background-color: #3DCCDF;
+    color: #F5F5F5;
+    transform:scale(1.1);
+}
+
+
+/* main.html extra footer (over footer)*/
+.extra_FOOTER {
+    width: 100%;
+}
+
+.abrir_Chamado{
+    float: left;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    width: 40em;
+}
+
+.abrir_Chamado p {
+    font-size: 17px;
+}
+
+.abrir_Chamado p a {
+    text-decoration: underline;
+    color: #FF804C;
+}
+
+.abrir_Chamado p a:hover {
+    color: #f59b78;
+}
+
+.abrir_Chamado_BTN {
+    width: 30em;
+    border-radius: 5rem;
+    color: #F5F5F5;
+    background-color: #FF804C;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.625em 2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.extra_FOOTER .abrir_Chamado_BTN:hover{
+    background-color: #FF804C;
+    color: #F5F5F5;
+    transform:scale(1.1);
+}
+
+.abrir_Chamado_BTN img {
+    float: left;
+    width: 4em;
+}
+
+.abrir_Chamado_BTN_TXT {
+    margin-top: 0.6em;
+    margin-left: 3.5em;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.MigrateIMG {
+    float: right;
+    margin-top: 5em;
+    margin-right: 2em;
+    width: 20%;
+}
