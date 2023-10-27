@@ -6,8 +6,9 @@ authors = ["Leonardo Peres <leonardoperes@migrate.info>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-mkdocs = "^1.5.3"
+mkdocs = {extras = ["i18n"], version = "^1.5.3"}
 mkdocs-material = "^9.4.6"
+pymdown-extensions = "^10.3.1"
 
 [tool.poetry.dev-dependencies]
 

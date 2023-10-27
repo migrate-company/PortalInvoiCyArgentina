@@ -13,15 +13,22 @@ Como atualizar os artigos:
     ```shell
     poetry install
     ```
+- Pode ser que dê erro no mkdocs.yml, na linha "format: !!python/name:pymdownx.superfences.fence_code_format". 
+    Neste caso as dependências não foram devidamente instaladas com o Poetry.
+    Um contorno é instalar via PIP:
+    ```shell
+    pip install requirements.txt
+    ```
+
 - Todos os artigos devem ser cridos em arquivos .md dentro do diretório "docs".
-- Itens no menu devem ser incluídos no index.md.
+- Itens no menu devem ser incluídos no mkdocs.yml.
 
 Como testar aplicação local:
 - rode no terminal o comando abaixo:
     ```shell
     mkdocs serve
     ```
-- Vai ser disponibilizado localmente um serviço em 127.0.0.1:8000/PortalInvoiCyArgentina/
+- Vai ser disponibilizado localmente um serviço em http://127.0.0.1:8000/PortalInvoiCyArgentina/
 - Será criado um diretório "site" com os arquivos estáticos. Este diretorio está para ser ignorado no .gitignore, pois não é necessário depois.
 
 Como subir para produção:

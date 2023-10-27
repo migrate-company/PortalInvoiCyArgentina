@@ -4,18 +4,18 @@ site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 theme:
   logo: https://migrate-company.github.io/PortalInvoiCyArgentina/img/InvoicyforDev.png
   name: material
-  locale: pt_BR
+  locale: en
   custom_dir: overrides
   favicon: https://migrate-company.github.io/PortalInvoiCyArgentina/img/favicon.png
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch
-        name: Switch to dark mode
+        name: cambiar al modo oscuro
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        name: cambiar al modo claro
   
   features:
     - content.code.copy
