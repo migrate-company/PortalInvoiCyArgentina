@@ -3,7 +3,7 @@
     <b>24 de octubre de 2023</b>
 </div>
 ¡Hola gente!
-Vea en detalle las novedades de la versión 1.00.0 de Invoicy:
+Vea en detalle las novedades de la versión 1.00.0 de InvoiCy:
 
 ## Feature nova 1!
 
@@ -45,7 +45,7 @@ Duis malesuada sapien eget libero egestas aliquam. Curabitur in ipsum vel urna t
     <div class="publi_Por">
         <h2>Publicado por: <a href="https://desenvolvedores.migrate.info/author/brunakalschne/" target="_blank"  title="Posts de brunakalschne">brunakalschne</a></h2>
     </div>
-<span>Postado em <a>Invoicy </a>com as tags <a>Release Notes</a>, <a>Versão 2.56.0</a></span>
+<span>Postado en <a>InvoiCy </a>con las tags <a>Release Notes</a>, <a>Versión 1.00.0</a></span>
 </div>
 <div class="comentarios">
     <form class="form_comentarios">

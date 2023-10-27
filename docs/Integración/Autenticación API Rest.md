@@ -2,11 +2,11 @@
 
 ## Generando el JWT
 
-Pensando en la seguridad de los datos de nuestros clientes, al actualizar la versión del sistema, el usuario deberá realizar el proceso de generación de Token para su integración vía Rest API. Antes de iniciar el desarrollo de la autenticación con Invoicy en la integración a través de la API, la mejor alternativa para entender el proceso de autenticación es generar el token en el patrón JWT - JSON Web Token manualmente.
+Pensando en la seguridad de los datos de nuestros clientes, al actualizar la versión del sistema, el usuario deberá realizar el proceso de generación de Token para su integración vía Rest API. Antes de iniciar el desarrollo de la autenticación con InvoiCy en la integración a través de la API, la mejor alternativa para entender el proceso de autenticación es generar el token en el patrón JWT - JSON Web Token manualmente.
 
 Para hacer esto, acceda al portal JWT (https://jwt.io/) y configure el panel Decoded ajustando los grupos Payload y Verify Signature.
 
-![decoded PY](https://migrate-company.github.io/PortalInvoiCyArgentina/img/decoded_PY.png)
+![decoded PY](https://migrate-company.github.io/PortalInvoiCyArgentina/img/decoded_py.png)
 
 ## Entendiendo al grupo Payload:
 

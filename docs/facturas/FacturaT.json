@@ -1,0 +1,75 @@
+{
+    "Envio": {
+        "idDocumento": {
+            "codigoTipoComprobante": "Integer (3) - Tipo de comprobante. Podrá ser 195,196 ó 197. Donde: 195-Factura T; 196-Nota de Débito T; 197-Nota de Crédito T.",
+            "numeroComprobante": "Integer (8) - Número del comprobante.",
+            "numeroPuntoVenta": "Integer (5) - Numero del punto de venta por el cual se emite el comprobante",
+            "fechaEmision": "Date - Fecha de Emision del comprobante. Utilizar el formato AAAA-MM-DD. Ej: 2023-05-20. Si no se envía se le asignará la fecha de proceso",
+            "codigoTipoAutorizacion": "E - Valor por defecto.",
+            "importeGravado": "Numeric (15,2) - Importe neto total de conceptos gravados.",
+            "importeNoGravado": "Numeric (15,2) - Importe neto total de conceptos no gravados.",
+            "importeExento": "Numeric (15,2) - Importe neto total de conceptos exentos.",
+            "importeReintegro": "Numeric(15,2) - Debe ser informado menor o igual a cero si dentro de los items existe al menos um ítem con codigoTurismo igual a 1 ó 2. No debe ser informado o ser igual a cero por tener todos sus items con codigoTurismo igual a 5 cuando el tipo de comprobante es 196 ó 197",
+            "importeSubtotal": "Numeric (15,2) - Deberá coincidir con la sumatoria de los campos importeNoGravado, importeGravado y importeExento.",
+            "importeOtrosTributos": "Numeric (15,2) - Importe total de otros tributos",
+            "importeTotal": "Numeric (15,2) - Importe total del comprobante",
+            "codigoMoneda": "Char (3) - Consultar la tabla de monedas en el InvoiCy para obtener el codigo",
+            "cotizacionMoneda": "Numeric (4,6) - 4 enteros y 6 decimales. Mayor a cero. Maximo permitido: 9999.99999",
+            "observaciones": "char(2000) - Opcional. Observaciones comerciales."
+        },
+        "receptor": {
+            "codigoTipoDocumento": "Integer (2) - Opcional. Debe informarse cuando codigoTipoComprobante es igual a 1,2 ó 3. Cuando codigoTipoComprobante es igual a 6,7 ó 8 y el importe total del documento importeTotal es mayor o igual al monto en pesos vigente. Valores aceptados: 80-CUIT; 86-CUIL; 87-CDI; 89-LE; 90-LC; 91-CI Extranjera; 94-Pasaporte; 96-DNI; 30- Certificado de Migración; 00 - CI Policía Federal; 99 - Otro. Si codigoTipoComprobante es igual a 1,2 ó 3 el codigoTipoDocumento debe ser 80 - CUIT.",
+            "numeroDocumento": "Integer (11) - Numero de documento del receptor del comprobante.",
+            "nombre": "Char (150) - Nombre ó Razón Social del receptor",
+            "domicilio": "Char (300) - Domicilio fiscal del receptor - Calle, Ciudad, Provincia...",
+            "email": "Char (100) - Correo del receptor",
+            "codigoRelacionEmisorReceptor": "Integer (2) - Relación de emisor y receptor. Valores aceptados: 1-Alojamiento Directo a Turista No Residente; 2-Alojamiento a Agencia de Viaje Residente; 3-Alojamiento a Agencia de Viaje No Residente; 4-Agencia de Viaje Residente a Agencia de Viaje No Residente; 5-Agencia de Viaje Residente a Turista No Residente; 6-Agencia de Viaje Residente a Agencia de Viaje Residente.",
+            "codigoPais": "Integer (4) - Consultar la tabla de paises en el InvoiCy para obtener el codigo",
+            "condicionIVA": "Integer (2) - Condición del receptor frente al IVA. Valores aceptados: 1-IVA Responsable Inscripto; 5-Consumidor Final; 9-Cliente del Exterior.",
+            "accArchivosEnviar": "Integer (1) - Como el receptor receberá en su correo la factura. Valores aceptados: 1-Buscar de la configuración del InvoiCy; 2-XML; 3-XML y Representación Impresa; 4-Representación Impresa; 9-No enviar archivos vía e-mail"
+        },
+        "items": [
+            {
+                "tipo": "Integer (3) - Identifica el tipo del ítem. Valores aceptados: 0-Item general; 97-Anticipo; 99-Descuento General.",
+                "codigoTurismo": "Integer (3) - Identifica el tipo de turismo. Valores aceptados: 1-Servicio de hotelería - alojamiento sin desayuno; 2-Servicio de hotelería - alojamiento con desayuno; 5-Excedente.",
+                "codigo": "Char (50) - Código interno asignado por la empresa",
+                "descripcion": "Char (4000) - Descripción del producto",
+                "codigoAlicuotaIVA": "Integer (2) - Código de IVA. Valores aceptados: 5-IVA 21%",
+                "importeIVA": "Numeric (15, 2) - Importe IVA",
+                "importeItem": "Numeric (15, 2) - Importe total del ítem"
+            }
+        ],
+        "comprobantesAsociados": [ //De corresponder, se detallan el o los comprobantes asociados al comprobante que se envía en la solicitud.
+            {
+                "codigoTipoComprobante": "Integer (3) - Tipo de comprobante. Podrá ser 2,3,7 ó 8. Donde: 2-Nota de Débito A; 3-Nota de Crédito A; 7-Nota de Débito B; 8-Nota de Crédito B.",
+                "numeroComprobante": "Integer (8) - Número del comprobante.",
+                "numeroPuntoVenta": "Integer (5) - Numero del punto de venta."
+            }
+        ],
+        "subtotalesIVA": [ //De corresponder se detallan las alícuotas de IVA incluidas en el comprobante con sus respectivos importes
+            {
+                "codigo": "Integer (2) - Código de IVA. Valores aceptados: 5-IVA 21%",
+                "importe": "Numeric (15,2) - Importe liquidado según la alícuota de IVA indicada en el campo codigo"
+            }
+        ],
+        "otrosTributos": [ //De corresponder se detallan el o los tributos incluidos en el comprobante ingresado en la solicitud
+            {
+                "codigoTipoTributo": "Integer (2) - Código de tributo. Valores aceptados: 1-Impuestos Nacionales; 2-Impuestos Provinciales; 3-Impuestos Municipales; 4-Impuestos Internos; 5-IIBB; 6-Percepción de IVA; 7-Percepción de IIBB; 8-Percepción por Impuestos Municipales; 9-Otras Percepciones; 13-Percepción de IVA a No Categorizado; 99-Otros.",
+                "descTipoTributo": "char (25) - Descripción del tributo",
+                "baseImponible": "Numeric (15,2) - Base imponible",
+                "importe": "Numeric (15,2) - Importe del tributo"
+            }
+        ],
+        "formasPago": [ // Corresponde a la forma de pago utilizada por el receptor
+            {
+                "codigo": "Integer (3) - Código correspondiente. Valores aceptados: 68-Tarjeta de Crédito; 69-Tarjeta de Débito; 96-Cuenta Corriente; 90-Otros medios de pago electrónico; 9-Transferencia Bancaria.",
+                "tipoTarjeta": "Integer (2) - Tipo de tarjeta. Valores aceptados si codigo es 68: 1-American Express; 2-Visa; 3-Mastercard; 4-Credencial; 5-Carta Franca; 6-Cabal; 7-Diners; 8-Tarjeta Shopping; 9-Tarjeta Naranja; 99- Otra. Valores aceptados si codigo es 69: 1-Maestro; 2-Visa Electrón; 3-Cabal 24 hs; 99-Otra.",
+                "numeroTarjeta": "Integer (6) - Número de tarjeta. Solo los primeros 6 dígitos",
+                "swiftCode": "Char(11) - Swift Code",
+                "tipoCuenta": "Integer (2) - Tipo de cuenta. Valores aceptados: 1-Caja de ahorro; 2-Cuenta corriente; 3-Cuenta única.",
+                "numeroCuenta": "Char(20) - Corresponde al número de cuenta",
+                "importe": "Numeric (15,2) - Importe del pago"
+            }
+        ]
+    }
+}
