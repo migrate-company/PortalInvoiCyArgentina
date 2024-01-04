@@ -31,7 +31,7 @@ Como testar aplicação local:
 - Vai ser disponibilizado localmente um serviço em http://127.0.0.1:8000/PortalInvoiCyArgentina/
 - Será criado um diretório "site" com os arquivos estáticos. Este diretório está para ser ignorado no .gitignore, pois não é necessário depois.
 - Por vezes, o mkdocs serve não copia novos arquivos para o diretório site, então é necessário rodar o comando abaixo para forçar a recriação.
-```shell
+    ```shell
     mkdocs build
     ```
 Como subir para produção:
