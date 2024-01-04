@@ -408,7 +408,7 @@
     width: 14em;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .MigrateIMG {
         width: 14em;
         display: block;
