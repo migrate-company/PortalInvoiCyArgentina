@@ -353,8 +353,9 @@
 .abrir_Chamado{
     float: left;
     margin-bottom: 4em;
-    margin-left: 4em;
-    width: 40em;
+    margin-left: 7em;
+    width: 30em;
+    text-align: right;
 }
 
 .abrir_Chamado p {
@@ -371,7 +372,7 @@
 }
 
 .abrir_Chamado_BTN {
-    width: 30em;
+    width: 22em;
     border-radius: 5rem;
     color: #F5F5F5;
     background-color: #FF804C;
