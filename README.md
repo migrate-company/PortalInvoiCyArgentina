@@ -41,10 +41,13 @@ Como subir para produção:
     git commit -m "descrição do commit"
     git push
     ```
-
-- Execute o comando para gerar uma branch "gh-pages":
+    
+- Existe uma action CI/CD configurada para atualizar automaticamente quando um commit é subido para a branch master.
+- Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyArgentina/
+- Caso ocorra algum problema no CI/CD, pode ser necessário executar manualmente.
+  - Execute o comando através da branch master para gerar uma branch "gh-pages":
     ```shell
     mkdocs gh-deploy
     ```
-- Automaticamente o mkdocs irá subir essa branch para o repositório do github e habilitar a página.
-- Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyArgentina/preguntasmasfrecuentes/
+  - Automaticamente o mkdocs irá subir essa branch "gh-pages" para o repositório do github e habilitar a página.
+  - Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyArgentina/
