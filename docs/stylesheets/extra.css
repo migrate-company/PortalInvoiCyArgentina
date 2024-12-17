@@ -429,3 +429,88 @@
         margin-top: 13em;
     }
 }
+
+.footer {
+    background-color: #3F5364; /* Cor de fundo do rodapé */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+  }
+  
+  .footer-logo img {
+    width: 200px; /* Tamanho da logo */
+  }
+  
+  .footer-section, .footer-contact {
+    margin: 10px;
+  }
+  
+  .footer-section h3, .footer-contact h3 {
+    color: #FF7E4D; /* Cor dos títulos */
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact .social-icons img {
+    width: 25px;
+    margin-right: 10px;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .social-icons a {
+    color: #ffffff; /* Cor dos ícones */
+    font-size: 24px; /* Tamanho dos ícones */
+    margin-right: 10px; /* Espaçamento entre ícones */
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ff7e4d; /* Cor ao passar o mouse */
+  }
+
+  .footer-contact h3 {
+    font-size: 20px; /* Tamanho do título */
+    font-weight: bold; /* Negrito opcional */
+  }
+  
+  .footer-contact p {
+    font-size: 18px; /* Tamanho do parágrafo */
+  }
+  
+  .footer-section h3 {
+    font-size: 20px; /* Tamanho dos títulos das seções */
+  }
+  
+  .footer-section ul li a {
+    font-size: 16px; /* Tamanho dos links */
+    color: #ffffff; /* Cor dos links */
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  }
+  
+  .footer {
+    font-size: 16px; /* Tamanho geral para textos menores */
+  }
+  

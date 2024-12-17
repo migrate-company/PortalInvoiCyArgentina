@@ -6,7 +6,7 @@ Pensando en la seguridad de los datos de nuestros clientes, al actualizar la ver
 
 Para hacer esto, acceda al portal JWT (https://jwt.io/) y configure el panel Decoded ajustando los grupos Payload y Verify Signature.
 
-![decoded PY](https://migrate-company.github.io/PortalInvoiCyArgentina/img/decoded_py.png)
+![decoded PY](https://migrate-company.github.io/PortalInvoiCyArgentina/img/decoded_PY.png)
 
 ## Entendiendo al grupo Payload:
 
@@ -28,8 +28,8 @@ Al completar esta información, se generará el JWT en el panel Encoded para ser
 <div class="postman-run-button"
 data-postman-action="collection/fork"
 data-postman-visibility="public"
-data-postman-var-1="11545214-e9cab45f-e5f8-42e6-b037-51ab888ae0b3"
-data-postman-collection-url="entityId=11545214-e9cab45f-e5f8-42e6-b037-51ab888ae0b3&entityType=collection&workspaceId=47d53896-9f39-46ad-9e22-3317503e9120"></div>
+data-postman-var-1="11545214-5ecf6876-bdf2-4c9e-b33d-12a258914c36"
+data-postman-collection-url="entityId=11545214-5ecf6876-bdf2-4c9e-b33d-12a258914c36&entityType=collection&workspaceId=726d848b-d79e-4e66-bcf4-1d20fe9187d3"></div>
 <script type="text/javascript">
   (function (p,o,s,t,m,a,n) {
     !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });

@@ -28,13 +28,8 @@ nav:
   - Página de Inicio: index.md
   - Integración:
       - Autenticación API Rest: Integración/Autenticación API Rest.md
-      - Downloads: Integración/Downloads/downloads.md
+      - Downloads: Integración/downloads.md
   - Preguntas más frecuentes: preguntasmasfrecuentes.md
-  - Release Notes del InvoiCy:
-      - Release Notes: Release Notes del Invoicy/ReleaseNotes.md
-      - Versión 1.00.0: Release Notes del Invoicy/Versión 1.00.0.md
-      - Versión 1.01.0: Release Notes del Invoicy/Versión 1.01.0.md
-      - Versión 1.01.1: Release Notes del Invoicy/Versión 1.01.1.md
 
 markdown_extensions:
   - admonition
@@ -53,14 +48,3 @@ markdown_extensions:
   - md_in_html
   - pymdownx.keys
   - pymdownx.emoji:
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/migrate-company
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/migratebrasil/?hl=pt
-    - icon: fontawesome/brands/linkedin
-      link: https://br.linkedin.com/company/migratebrasil
-    - icon: fontawesome/brands/spotify
-      link: https://open.spotify.com/show/4AqLu0LrWeicQQegdDSzG8?si=748b41c6cbe84920&nd=1
