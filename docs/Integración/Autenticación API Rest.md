@@ -6,7 +6,7 @@ Pensando en la seguridad de los datos de nuestros clientes, al actualizar la ver
 
 Para hacer esto, acceda al portal JWT (https://jwt.io/) y configure el panel Decoded ajustando los grupos Payload y Verify Signature.
 
-![decoded PY](https://migrate-company.github.io/PortalInvoiCyArgentina/img/decoded_PY.png)
+![decoded PY](https://s3.amazonaws.com/movidesk-files/1ACF67853E8B82D3B7056FAD6BD39673)
 
 ## Entendiendo al grupo Payload:
 
