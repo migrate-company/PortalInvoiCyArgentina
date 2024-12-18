@@ -1,0 +1,64 @@
+{
+    "Envio": {
+        "idDocumento": {
+            "codigoTipoComprobante": "Integer (3) - Tipo de comprobante. Podrá ser 19,20 ó 21. Donde: 19-Factura E; 20-Nota de Débito E; 21-Nota de Crédito E.",
+            "numeroComprobante": "Integer (8) - Número del comprobante.",
+            "numeroPuntoVenta": "Integer (5) - Numero del punto de venta por el cual se emite el comprobante",
+            "fechaEmision": "Date - Fecha de Emision del comprobante. Utilizar el formato AAAA-MM-DD. Ej: 2023-05-20. Si no se envía se le asignará la fecha de proceso",
+            "importeTotal": "Numeric (15,2) - Importe total del comprobante",
+            "codigoMoneda": "Char (3) - Consultar la tabla de monedas en el InvoiCy para obtener el codigo",
+            "observacionesComerciales": "char(2000) - Opcional. Observaciones comerciales.",
+            "observacionesExportacion": "char(1000) - Opcional. Observaciones",
+            "tipoExportacion": "Char (1) Tipo de exportación. Podrá ser 1,2 ó 4. Donde: 1-Exportación definitiva de bienes; 2-Servicios; 4-Otros",
+            "Incoterms": "Char (3) - Incoterms",
+            "descIncoterms": "Char (20) - Información complementaria del incoterm",
+            "formaPagoExportacion": "Char (50) - Descripción de forma de pago",
+            "permisoExistente": "Char (1) - Indica si se posee documento aduanero de exportación (permiso de embarque). Posibles Valores: S, N, o vacío",
+            "fechaPagoExportacion": "Char (8) - Fecha de pago (formato yyyymmdd)"
+        },
+        "receptor": {
+            "numeroDocumento": "Char (40) - Numero de documento del receptor del comprobante. No informar si se ingresó valor en el campo cuitPaisCliente",
+            "nombre": "Char (150) - Nombre ó Razón Social del receptor",
+            "domicilio": "Char (300) - Domicilio fiscal del receptor - Calle, Ciudad, Provincia...",
+            "email": "Char (100) - Correo del receptor",
+            "cuitPaisCliente": "Integer (12) CUIT del país destino/Contribuyente No es obligatorio si se ingresó valor en el campo numeroDocumento",
+            "codigoPais": "Integer (3) - Consultar la tabla de paises en el InvoiCy para obtener el codigo",
+            "accArchivosEnviar": "Integer (1) - Como el receptor receberá en su correo la factura. Valores aceptados: 1-Buscar de la configuración del InvoiCy; 2-XML; 3-XML y Representación Impresa; 4-Representación Impresa; 9-No enviar archivos vía e-mail"
+        },
+        "items": [
+            {
+                "codigo": "Char (50) - Código interno asignado por la empresa",
+                "descripcion": "Char (4000) - Descripción del producto",
+                "cantidad": "Numeric (18,6) - Cantidad del item",
+                "codigoUnidadMedida": "Integer (2) - Consultar la tabla de unidades de medida",
+                "precioUnitario": "Numeric (15, 2) - Precio unitario",
+                "importeBonificacion": "Numeric (15, 2) - Bonificación sobre el ítem",
+                "importeItem": "Numeric (15, 2) - Importe total del ítem"
+            }
+        ],
+        "comprobantesAsociados": [ //De corresponder, se detallan el o los comprobantes asociados al comprobante que se envía en la solicitud.
+            {
+                "codigoTipoComprobante": "Integer (3) - Tipo de comprobante. Deberá ser 19 qué es Factura E",
+                "numeroComprobante": "Integer (8) - Número del comprobante.",
+                "numeroPuntoVenta": "Integer (5) - Numero del punto de venta."
+            }
+        ],
+        "permisos": [ // Si se ingresó valor S en el campo permisoExistente deberá corresponder
+            {
+                "idPermiso": "Char (16) - Código de despacho – Permiso de Embarque",
+                "destinoMercaderia": "Integer (3) - País de destino de la mercadería. Consultar la tabla de paises en el InvoiCy para obtener el codigo"
+            }
+        ],
+        "opcionales": [
+            {
+                "id": "Char (4) - Identificador de dato opcional",
+                "valor": "Char (50) - Valor que acompaña al identificador"
+            }
+        ],
+        "actividades": [
+            {
+                "codigo": "Integer (6) - Código de la Actividad registrada en las bases de AFIP"
+            }
+        ]
+    }
+}
