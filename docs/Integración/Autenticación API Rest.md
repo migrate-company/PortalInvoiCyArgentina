@@ -28,8 +28,8 @@ Al completar esta información, se generará el JWT en el panel Encoded para ser
 <div class="postman-run-button"
 data-postman-action="collection/fork"
 data-postman-visibility="public"
-data-postman-var-1="11545214-5ecf6876-bdf2-4c9e-b33d-12a258914c36"
-data-postman-collection-url="entityId=11545214-5ecf6876-bdf2-4c9e-b33d-12a258914c36&entityType=collection&workspaceId=726d848b-d79e-4e66-bcf4-1d20fe9187d3"></div>
+data-postman-var-1="11545214-a3b7f5b0-a051-4f2c-ba7a-17979a7a6e9f"
+data-postman-collection-url="entityId=11545214-a3b7f5b0-a051-4f2c-ba7a-17979a7a6e9f&entityType=collection&workspaceId=8991473f-9646-4aa0-8a89-3b8ce13d45ba"></div>
 <script type="text/javascript">
   (function (p,o,s,t,m,a,n) {
     !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
