@@ -4,7 +4,8 @@ site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 theme:
   logo: https://migrate-company.github.io/PortalInvoiCyArgentina/img/InvoicyforDev.png
   name: material
-  locale: en
+  # locale: en
+  language: es
   custom_dir: overrides
   favicon: https://migrate-company.github.io/PortalInvoiCyArgentina/img/favicon.png
   palette:
