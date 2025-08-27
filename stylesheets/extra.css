@@ -57,6 +57,9 @@
     display: block;
 }
 
+.md-content__inner { /*páginas muito pequenas acaba gerando rolagem no menu*/
+    min-height: 600px; 
+}
 
 /* Text links */
 .md-typeset a {
@@ -78,6 +81,28 @@
     color: #f59b78;
 }
 
+
+/* .md-nav__link:has(> a[href*="Downloads/Downloads.html"]) {
+    color: #ff0000; 
+} */
+
+a[href*='Downloads/Downloads.html']::after {
+    content: "\f005";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #fff; /* cor da estrela */
+    background: #FF804C; /* cor da bolinha */
+    border-radius: 90%;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.1em;
+    margin-top: -0.1em;
+    
+}
+
 /* .md-nav__list{
     
 } */
@@ -86,6 +111,16 @@
     font-size: 1.8em;
     font-weight: bold;
 }
+
+/*search bar*/
+.md-search__icon[for=__search]{
+    margin-left: -35px;
+}
+
+.md-source__icon{
+    padding-left: 15px;
+}
+
 
 /* Buttons */
 .md-typeset .md-button {
@@ -440,7 +475,10 @@
   }
   
   .footer-logo img {
-    width: 200px; /* Tamanho da logo */
+   /* Tamanho da logo */
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 25px;
   }
   
   .footer-section, .footer-contact {
@@ -452,7 +490,7 @@
     margin-bottom: 10px;
   }
   
-  .footer-section ul {
+  .footer-section ul, .footer-contact ul {
     list-style: none;
     padding: 0;
   }
