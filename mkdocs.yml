@@ -30,6 +30,7 @@ nav:
   - Integración:
       - Autenticación API Rest: Integración/Autenticación API Rest.md
       - Downloads: Integración/downloads.md
+  - Release Notes: Revisiones\Release Notes.md
   - Preguntas más frecuentes: preguntasmasfrecuentes.md
 
 markdown_extensions:
