@@ -6,7 +6,10 @@ Pensando en la seguridad de los datos de nuestros clientes, al actualizar la ver
 
 Para hacer esto, acceda al portal JWT (https://jwt.io/) y configure el panel Decoded ajustando los grupos Payload y Verify Signature.
 
-![decoded PY](https://s3.amazonaws.com/movidesk-files/1ACF67853E8B82D3B7056FAD6BD39673)
+<figure markdown="span" style="max-width: 600px; margin: 0 auto; text-align: center;">
+  ![Image title](../img/Artigos/Autenticacion_API_Rest_decoded_AR.png){ loading=lazy style="max-width: 100%; height: auto;" }
+  <figcaption>Decodificación de un JWT</figcaption>
+</figure>
 
 ## Entendiendo al grupo Payload:
 
@@ -19,7 +22,10 @@ La generación de fecha / hora en la timestamp se puede realizar a través del p
 
 ## Entendiendo al grupo Verify Signature:
 
-![Payload](https://migrate-company.github.io/PortalInvoiCyArgentina/img/epoch_py.png)
+<figure markdown="span" style="max-width: 600px; margin: 0 auto; text-align: center;">
+  ![Image title](../img/Artigos/Autenticacion_API_Rest_epoch_ar.png){ loading=lazy style="max-width: 100%; height: auto;" }
+  <figcaption>Conversión de un timestamp Epoch</figcaption>
+</figure>
 
 En el campo donde se permite la edición, informe la clave de acceso de la empresa. La clave de acceso es la clave privada proporcionada por InvoiCy para cada empresa registrada, disponible a través de la pantalla de datos de la sucursal.
 
