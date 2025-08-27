@@ -7,7 +7,7 @@ Pensando en la seguridad de los datos de nuestros clientes, al actualizar la ver
 Para hacer esto, acceda al portal JWT (https://jwt.io/) y configure el panel Decoded ajustando los grupos Payload y Verify Signature.
 
 <figure markdown="span" style="max-width: 600px; margin: 0 auto; text-align: center;">
-  ![Image title](../img/Artigos/Autenticacion_API_Rest_decoded_AR.png){ loading=lazy style="max-width: 100%; height: auto;" }
+  ![Image title](../img/Artigos/Autenticacion_API_Rest_decoded_AR.PNG){ loading=lazy style="max-width: 100%; height: auto;" }
   <figcaption>Decodificación de un JWT</figcaption>
 </figure>
 
