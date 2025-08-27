@@ -1,6 +1,18 @@
 site_name: InvoiCy Argentina
 site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 
+#Aqui vão os links do MENU
+nav:
+nav:
+  - Página de Inicio: index.md
+  - Integración:
+      - Autenticación API Rest: Integración/Autenticación API Rest.md
+      - Downloads: Integración/downloads.md
+  - Release Notes: Revisiones\Release Notes.md
+  - Preguntas más frecuentes: preguntasmasfrecuentes.md
+
+  #Fim definição de MENU
+
 plugins:
   - search:
       lang: es
@@ -86,27 +98,33 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
+    - content.code.select
 
 extra_css:
   - stylesheets/extra.css
   - stylesheets/mkdocs-plugin/neoteroi.css
 
-nav:
-  - Página de Inicio: index.md
-  - Integración:
-      - Autenticación API Rest: Integración/Autenticación API Rest.md
-      - Downloads: Integración/downloads.md
-  - Release Notes: Revisiones\Release Notes.md
-  - Preguntas más frecuentes: preguntasmasfrecuentes.md
+watch:
+  - overrides
 
 markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2
   - admonition
   - pymdownx.details
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      # css_class: 'highlight'
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -116,6 +134,3 @@ markdown_extensions:
   - md_in_html
   - pymdownx.keys
   - neoteroi.timeline
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
