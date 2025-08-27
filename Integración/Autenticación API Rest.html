@@ -549,8 +549,8 @@
 
 
 
-<h1 id="autenticacion-api-rest">Autenticación API Rest</h1>
-<h2 id="generando-el-jwt">Generando el JWT</h2>
+<h1 id="autenticacion-api-rest">Autenticación API Rest<a class="headerlink" href="#autenticacion-api-rest" title="Permanent link">&para;</a></h1>
+<h2 id="generando-el-jwt">Generando el JWT<a class="headerlink" href="#generando-el-jwt" title="Permanent link">&para;</a></h2>
 <p>Pensando en la seguridad de los datos de nuestros clientes, al actualizar la versión del sistema, el usuario deberá realizar el proceso de generación de Token para su integración vía Rest API. Antes de iniciar el desarrollo de la autenticación con InvoiCy en la integración a través de la API, la mejor alternativa para entender el proceso de autenticación es generar el token en el patrón JWT - JSON Web Token manualmente.</p>
 <p>Para hacer esto, acceda al portal JWT (https://jwt.io/) y configure el panel Decoded ajustando los grupos Payload y Verify Signature.</p>
 <figure style="max-width: 600px; margin: 0 auto; text-align: center;">
@@ -558,14 +558,14 @@
 <br />
 <figcaption>Decodificación de un JWT</figcaption>
 </figure>
-<h2 id="entendiendo-al-grupo-payload">Entendiendo al grupo Payload:</h2>
+<h2 id="entendiendo-al-grupo-payload">Entendiendo al grupo Payload:<a class="headerlink" href="#entendiendo-al-grupo-payload" title="Permanent link">&para;</a></h2>
 <p>El host varía según el entorno, siendo de pruebas https://apparpruebas.migrate.info/ y de producción https://appar.migrate.info/.
 “Iat”: campo numérico que debe contener la fecha / hora actual en zona cero y en formato de marca de tiempo;
 “Exp”: campo numérico que debe contener la fecha / hora actual + 120 segundos en zona cero y en formato de marca de tiempo;
 “Sub”: es una cadena con el código de establecimiento RUC + de la empresa emisora. Cuando el RUC no tiene un total de 8 dígitos, es necesario llenarlo al inicio con el valor 0 hasta cerrar el valor total. Lo mismo se repite para el código de establecimiento, siendo necesario completar el total de 10 dígitos.
 “PartnerKey”: es una cadena con la clave de socio proporcionada por InvoiCy, que se puede encontrar a través de la pantalla Panel de control&gt; Socios.
 La generación de fecha / hora en la timestamp se puede realizar a través del portal Epoch Converter, como se muestra en la imagen de ejemplo a continuación:</p>
-<h2 id="entendiendo-al-grupo-verify-signature">Entendiendo al grupo Verify Signature:</h2>
+<h2 id="entendiendo-al-grupo-verify-signature">Entendiendo al grupo Verify Signature:<a class="headerlink" href="#entendiendo-al-grupo-verify-signature" title="Permanent link">&para;</a></h2>
 <figure style="max-width: 600px; margin: 0 auto; text-align: center;">
   <a class="glightbox" href="../img/Artigos/Autenticacion_API_Rest_epoch_ar.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" loading="lazy" src="../img/Artigos/Autenticacion_API_Rest_epoch_ar.png" style="max-width: 100%; height: auto;" /></a>
 <br />
@@ -724,7 +724,7 @@ data-postman-collection-url="entityId=11545214-a3b7f5b0-a051-4f2c-ba7a-17979a7a6
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate", "content.code.select"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.50899def.min.js"></script>
