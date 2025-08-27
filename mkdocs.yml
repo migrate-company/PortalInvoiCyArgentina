@@ -1,6 +1,71 @@
 site_name: InvoiCy Argentina
 site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 
+plugins:
+  - search:
+      lang: es
+  - git-authors:
+      enabled: true
+      show_contribution: true
+      show_email_address: true
+      add_co_authors: true
+      sort_authors_by: contribution
+      #authorship_threshold_percent: 10
+      enabled_on_serve: true
+      exclude:
+        - index.md
+        - ES\Invoicy\news\index.md
+  - glightbox:
+      touchNavigation: true
+      effect: zoom
+      zoomable: true
+  - git-revision-date-localized:
+      enabled: true
+      locale: es
+      type: date
+      exclude:
+        - index.md
+        # - about.md
+        
+  #- i18n:
+      # docs_structure: suffix
+      # fallback_to_default: true
+      # reconfigure_material: true
+      # reconfigure_search: true
+      # languages:
+
+      #   - locale: es
+      #     name: Español
+      #     build: true
+      #     copyright: "Todos los derechos reservados"
+      #     site_name: "InvoiCy Uruguay"
+      #     nav_translations:
+      #       Planos: Planes
+      #       Inicio: Comenzar
+
+      #   - locale: pt
+      #     name: Português
+      #     build: true
+      #     default: true
+      #     copyright: "Todos os direitos reservados"
+      #     site_name: "InvoiCy Uruguai"
+          
+      #   - locale: en
+      #     name: English
+      #     build: true
+      #     copyright: "All rights reserved"
+      #     site_name: "InoviCy Uruguay"
+      #     nav_translations:
+      #       Planos: Plans
+      #       Inicio: Geting started
+            
+      #   - locale: "null"
+      #     name: Help translating
+      #     build: false
+      #     fixed_link: https://github.com/migrate-company/bms-core-doc/issues
+
+use_directory_urls: false
+
 theme:
   logo: https://migrate-company.github.io/PortalInvoiCyArgentina/img/InvoicyforDev.png
   name: material
@@ -24,6 +89,7 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/mkdocs-plugin/neoteroi.css
 
 nav:
   - Página de Inicio: index.md
