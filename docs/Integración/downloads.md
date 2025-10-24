@@ -11,5 +11,5 @@ Aquí encontrará varios ejemplos de integración Json, ejemplos de envío y dev
 - **Layout de Envío Factura E:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/API-Emision_ARG-Factura_E.xlsx)
 - **Archivo Json (Documento Envío) Factura A:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaA.json)
 - **Archivo Json (Documento Envío) Factura B:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaB.json)
-- **Archivo Json (Documento Envío) Factura T:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaC.json)
-- **Archivo Json (Documento Envío) Factura E:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaT.json)
+- **Archivo Json (Documento Envío) Factura T:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaT.json)
+- **Archivo Json (Documento Envío) Factura E:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaE.json)
