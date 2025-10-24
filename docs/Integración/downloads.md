@@ -6,10 +6,10 @@ Aquí encontrará varios ejemplos de integración Json, ejemplos de envío y dev
 
 ## Download de Ejemplos de Integración y Layout:
 
-- **Layout de Envío Factura A y B:** [Download](https://migrate.info/ar/Materiales_Integracion/API-Emision_ARG-Factura_A_y_B.zip)
-- **Layout de Envío Factura T:** [Download](https://migrate.info/ar/Materiales_Integracion/API-Emision_ARG-Factura_T.zip)
-- **Layout de Envío Factura E:** [Download](https://migrate.info/ar/Materiales_Integracion/API-Emision_ARG-Factura_E.zip)
-- **Archivo Json (Documento Envío) Factura A:** [Download](https://migrate.info/ar/Materiales_Integracion/FacturaA.zip)
-- **Archivo Json (Documento Envío) Factura B:** [Download](https://migrate.info/ar/Materiales_Integracion/FacturaB.zip)
-- **Archivo Json (Documento Envío) Factura T:** [Download](https://migrate.info/ar/Materiales_Integracion/FacturaT.zip)
-- **Archivo Json (Documento Envío) Factura E:** [Download](https://migrate.info/ar/Materiales_Integracion/FacturaE.zip)
+- **Layout de Envío Factura A y B:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/API-Emision_ARG-Factura_A_y_B.xlsx)
+- **Layout de Envío Factura T:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/API-Emision_ARG-Factura_T.xlsx)
+- **Layout de Envío Factura E:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/API-Emision_ARG-Factura_E.xlsx)
+- **Archivo Json (Documento Envío) Factura A:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaA.json)
+- **Archivo Json (Documento Envío) Factura B:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaB.json)
+- **Archivo Json (Documento Envío) Factura T:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaC.json)
+- **Archivo Json (Documento Envío) Factura E:** [Download](https://migrate-company.github.io/PortalInvoiCyArgentina/facturas/FacturaT.json)
