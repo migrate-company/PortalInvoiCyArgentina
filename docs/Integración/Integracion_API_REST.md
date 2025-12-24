@@ -24,13 +24,13 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Factura/UltimoComprobanteAutorizado
 - Producción URL: https://appar.migrate.info/Api/Factura/UltimoComprobanteAutorizado
 
-## :material-currency-exchange: API Monedas
+## :material-currency-usd: API Monedas
 - **Finalidad:** Consultar el listado de monedas disponibles.
 - **Endpoints:**
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/Monedas
 - Producción URL: https://appar.migrate.info/Api/Data/Monedas
 
-## :material-straighten: API Unidades de Medida
+## :material-scale-balance: API Unidades de Medida
 - **Finalidad:** Consultar las unidades de medida disponibles.
 - **Endpoints:** 
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/UnidadesMedida
