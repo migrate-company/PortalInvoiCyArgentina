@@ -4,12 +4,12 @@ site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 #Aqui vão os links do MENU
 nav:
 nav:
-  - Página de Inicio: index.md
+  - Início: index.md
   - Integración:
     - API REST: Integración/Integracion_API_REST.md
   - Downloads: Integración/downloads.md
   - Release Notes: Revisiones\Release Notes.md
-  - Preguntas más frecuentes: preguntasmasfrecuentes.md
+  - FAQ: FAQ.md
 
   #Fim definição de MENU
 
