@@ -37,6 +37,7 @@ plugins:
       type: date
       exclude:
         - index.md
+        - ES\Invoicy\news\index.md
         # - about.md
         
   #- i18n:
@@ -79,12 +80,12 @@ plugins:
 use_directory_urls: false
 
 theme:
-  logo: https://migrate-company.github.io/PortalInvoiCyArgentina/img/InvoicyforDev.png
+  logo: https://migrate-company.github.io/PortalInvoiCyUruguay/img/InvoicyforDev.png
   name: material
-  # locale: en
+  # locale: es
   language: es
   custom_dir: overrides
-  favicon: https://migrate-company.github.io/PortalInvoiCyArgentina/img/favicon.png
+  favicon: https://migrate-company.github.io/PortalInvoiCyUruguay/img/favicon.png
   palette:
     - scheme: default
       toggle:
@@ -94,7 +95,8 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: cambiar al modo claro
-  
+  icon:
+    annotation: material/plus-circle
   features:
     - content.code.copy
     - content.code.annotate

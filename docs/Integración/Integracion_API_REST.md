@@ -32,7 +32,7 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 
 ## :material-straighten: API Unidades de Medida
 - **Finalidad:** Consultar las unidades de medida disponibles.
-- Endpoints:** 
+- **Endpoints:** 
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/UnidadesMedida
 - Producción URL: https://appar.migrate.info/Api/Data/UnidadesMedida
 
