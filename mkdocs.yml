@@ -6,8 +6,8 @@ nav:
 nav:
   - Página de Inicio: index.md
   - Integración:
-      - Autenticación API Rest: Integración/Autenticación API Rest.md
-      - Downloads: Integración/downloads.md
+    - API REST: Integración/Integracion_API_REST.md
+  - Downloads: Integración/downloads.md
   - Release Notes: Revisiones\Release Notes.md
   - Preguntas más frecuentes: preguntasmasfrecuentes.md
 
