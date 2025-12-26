@@ -10,7 +10,7 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 - **Finalidad:** Enviar Facturas Electrónicas (FE) para procesamiento por InvoiCy.
 - **Endpoints:**
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Factura/Emitir
-- Producción URL: https://appar.migrate.info//Api/Factura/Emitir
+- Producción URL: https://appar.migrate.info/Api/Factura/Emitir
 
 ## :material-file-search: API Documentos
 - **Finalidad:** Consultar Facturas Electrónicas emitidas.
