@@ -42,9 +42,9 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/Paises
 - Producción URL: https://appar.migrate.info/Api/Data/Paises
 
-## :material-currency-exchange: API Cotización Moneda
-**Finalidad:** Consultar la cotización de una moneda.
-**Endpoints:**
+## :currency_exchange: API Cotización Moneda
+- **Finalidad:** Consultar la cotización de una moneda.
+- **Endpoints:**
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/CotizacionMoneda
 - Producción URL: https://appar.migrate.info/Api/Data/CotizacionMoneda
 
