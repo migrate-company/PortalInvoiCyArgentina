@@ -36,7 +36,7 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/UnidadesMedida
 - Producción URL: https://appar.migrate.info/Api/Data/UnidadesMedida
 
-## :material-flag: API Países
+## :material-map-search: API Países
 - **Finalidad:** Consultar el listado de países.
 - **Endpoints:**
 - Pruebas URL: https://apparpruebas.migrate.info/Api/Data/Paises
