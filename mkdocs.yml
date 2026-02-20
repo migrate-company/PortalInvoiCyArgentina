@@ -3,12 +3,11 @@ site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
 
 #Aqui vão os links do MENU
 nav:
-nav:
   - Início: index.md
   - Integración:
     - API REST: Integración/Integracion_API_REST.md
   - Downloads: Integración/downloads.md
-  - Release Notes: Revisiones\Release Notes.md
+  - Release Notes: Revisiones/Release Notes.md
   - FAQ: FAQ.md
 
   #Fim definição de MENU
@@ -84,6 +83,7 @@ theme:
   name: material
   # locale: es
   language: es
+  direction: ltr
   custom_dir: overrides
   favicon: https://migrate-company.github.io/PortalInvoiCyUruguay/img/favicon.png
   palette:
