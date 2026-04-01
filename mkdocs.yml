@@ -18,6 +18,8 @@ nav:
 plugins:
   - search:
       lang: es
+      exclude:
+        - stylesheets/**
   - git-authors:
       enabled: true
       show_contribution: true

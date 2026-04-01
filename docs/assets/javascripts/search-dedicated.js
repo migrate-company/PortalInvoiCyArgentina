@@ -197,8 +197,15 @@ class DedicatedSearch {
 
       const data = await response.json()
 
-      this.#pageData = data.docs
-      this.#flexIndex = this.#buildFlexIndex(data.docs, data.config)
+      const articleDocs = data.docs.filter((doc) => {
+        const loc = doc.location || ""
+        const assetPatterns = /^(assets|stylesheets|javascripts|images)\//i
+        const fileExtensions = /\.(css|js|png|jpg|jpeg|svg|gif|ico|woff|woff2|ttf|eot)(\?.*)?$/i
+        return !assetPatterns.test(loc) && !fileExtensions.test(loc)
+      })
+
+      this.#pageData = articleDocs
+      this.#flexIndex = this.#buildFlexIndex(articleDocs, data.config)
       this.#indexLoaded = true
 
       this.#resultsContainer.innerHTML =
