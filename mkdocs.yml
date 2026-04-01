@@ -1,5 +1,8 @@
 site_name: Portal de Integración – InvoiCy Argentina
 site_url: https://migrate-company.github.io/PortalInvoiCyArgentina
+repo_url: https://github.com/migrate-company/PortalInvoiCyArgentina
+repo_name: Ejemplos de Integración
+copyright: "Todos los derechos reservados"
 
 #Aqui vão os links do MENU
 nav:
@@ -76,42 +79,58 @@ plugins:
       #     build: false
       #     fixed_link: https://github.com/migrate-company/bms-core-doc/issues
 
-use_directory_urls: false
+use_directory_urls: true
 
 theme:
-  logo: https://migrate-company.github.io/PortalInvoiCyUruguay/img/InvoicyforDev.png
   name: material
-  # locale: es
+  font: false
   language: es
   direction: ltr
+  logo: assets/img/logo-invoicy-for-devs.svg
+  favicon: assets/img/favicon.png
   custom_dir: overrides
-  favicon: https://migrate-company.github.io/PortalInvoiCyUruguay/img/favicon.png
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch
-        name: cambiar al modo oscuro
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: cambiar al modo claro
+    primary: custom
   icon:
     annotation: material/plus-circle
+    repo: fontawesome/brands/git-alt
   features:
+    - navigation.indexes
+    - navigation.top
     - content.code.copy
     - content.code.annotate
-    - content.code.select
+
+extra:
+  old_site_url: https://desenvolvedores-antigo.migrate.info/
+  footer_logo: ./assets/img/logo_azul.svg
+  country_flags:
+    br: ./assets/img/flags/br.svg
+    ar: ./assets/img/flags/ar.svg
+    py: ./assets/img/flags/py.svg
+    uy: ./assets/img/flags/uy.svg
 
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/mkdocs-plugin/neoteroi.css
+  - assets/stylesheets/components.css
+  - assets/stylesheets/utilities.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/breakpoints.css
+  - assets/stylesheets/mkdocs-plugin/neoteroi.css
+  - assets/stylesheets/annotations.css
+
+extra_javascript:
+  - assets/javascripts/annotations.js
+  - assets/javascripts/links_nova_guia.js
+  - assets/javascripts/flexsearch.bundle.js
+  - assets/javascripts/toggle-footer-position.js
+  - assets/javascripts/return-to-page.js
+  - assets/javascripts/search-dedicated.js
 
 watch:
   - overrides
 
 markdown_extensions:
   - toc:
-      permalink: true
+      permalink: false
       toc_depth: 2
   - admonition
   - pymdownx.details
@@ -122,17 +141,19 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.highlight:
-      anchor_linenums: true
-      linenums: true
-      # css_class: 'highlight'
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
+      line_spans: __span
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: html
+          class: language-html
+        - name: html+jinja
+          class: language-html+jinja
   - attr_list
   - md_in_html
   - pymdownx.keys
   - neoteroi.timeline
+  - pymdownx.tabbed:
+      alternate_style: true

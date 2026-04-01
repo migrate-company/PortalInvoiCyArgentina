@@ -2,119 +2,117 @@
 
 Confira as dúvidas frequentes dos nossos usuários:
 
-## ¿Qué se necesita para empezar a emitir?
+??? note "¿Qué se necesita para empezar a emitir?"
 
-Estar inscripto en el IVA. 
-Tener un certificado de autorización electrónica (CAE) emitido por la AFIP. 
-Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
+    Estar inscripto en el IVA.
+    Tener un certificado de autorización electrónica (CAE) emitido por la AFIP.
+    Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
 
-## ¿Qué es la factura A y B? ¿En qué situación se debe utilizar?
+??? note "¿Qué es la factura A y B? ¿En qué situación se debe utilizar?"
 
-En Argentina, las facturas A y B son dos tipos de facturas electrónicas que se diferencian por el tipo de contribuyente que las emite y el tipo de destinatario.
+    En Argentina, las facturas A y B son dos tipos de facturas electrónicas que se diferencian por el tipo de contribuyente que las emite y el tipo de destinatario.
 
-**Factura A**
+    * **Factura A:**
+      La factura A es emitida por un contribuyente inscripto en el Impuesto al Valor Agregado (IVA) y se emite a otro contribuyente inscripto en el IVA o a un responsable no inscripto en el IVA que se encuentra en el exterior. En esta factura se detalla el impuesto al valor agregado (IVA) correspondiente.
 
-La factura A es emitida por un contribuyente inscripto en el Impuesto al Valor Agregado (IVA) y se emite a otro contribuyente inscripto en el IVA o a un responsable no inscripto en el IVA que se encuentra en el exterior. En esta factura se detalla el impuesto al valor agregado (IVA) correspondiente.
+    * **Factura B:**
+      La factura B es emitida por un contribuyente inscripto en el IVA y se emite a un consumidor final o a un responsable no inscripto en el IVA que se encuentra en el país. En esta factura no se detalla el impuesto al valor agregado (IVA).
 
-**Factura B**
+    En resumen, la principal diferencia entre la factura A y la factura B es que la factura A incluye el IVA, mientras que la factura B no lo incluye.
 
-La factura B es emitida por un contribuyente inscripto en el IVA y se emite a un consumidor final o a un responsable no inscripto en el IVA que se encuentra en el país. En esta factura no se detalla el impuesto al valor agregado (IVA).
+    **Requisitos para emitir facturas A y B**
 
-En resumen, la principal diferencia entre la factura A y la factura B es que la factura A incluye el IVA, mientras que la factura B no lo incluye.
+    Para emitir facturas A y B, los contribuyentes deben cumplir con los siguientes requisitos:
 
-**Requisitos para emitir facturas A y B**
+    * Estar inscriptos en el IVA.
+    * Tener un certificado de autorización electrónica (CAE) emitido por la Administración Federal de Ingresos Públicos (AFIP).
+    * Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
 
-Para emitir facturas A y B, los contribuyentes deben cumplir con los siguientes requisitos:
+    **Beneficios de la facturación electrónica**
 
-* Estar inscriptos en el IVA.
-* Tener un certificado de autorización electrónica (CAE) emitido por la Administración Federal de Ingresos Públicos (AFIP).
-* Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
+    La facturación electrónica ofrece una serie de beneficios para los contribuyentes, entre los que se encuentran:
 
-**Beneficios de la facturación electrónica**
+    * Mayor eficiencia en los procesos administrativos.
+    * Reducción de costos.
+    * Mejora en la trazabilidad de las operaciones.
+    * Facilitación del intercambio de información con los clientes y proveedores.
 
-La facturación electrónica ofrece una serie de beneficios para los contribuyentes, entre los que se encuentran:
+    **Conclusión**
 
-* Mayor eficiencia en los procesos administrativos.
-* Reducción de costos.
-* Mejora en la trazabilidad de las operaciones.
-* Facilitación del intercambio de información con los clientes y proveedores.
+    Las facturas A y B son dos tipos de facturas electrónicas que se utilizan en Argentina. La principal diferencia entre ellas es que la factura A incluye el IVA, mientras que la factura B no lo incluye.
 
-**Conclusión**
+??? note "¿Qué es la factura T? ¿En qué situación se debe utilizar?"
 
-Las facturas A y B son dos tipos de facturas electrónicas que se utilizan en Argentina. La principal diferencia entre ellas es que la factura A incluye el IVA, mientras que la factura B no lo incluye.
+    Claro que sí. En Argentina, la factura T es un tipo de factura electrónica que se emite a turistas extranjeros que realizan consumos en el país.
 
-##  ¿Qué es la factura T? ¿En qué situación se debe utilizar?
+    **Características**
 
-Claro que sí. En Argentina, la factura T es un tipo de factura electrónica que se emite a turistas extranjeros que realizan consumos en el país.
+    La factura T tiene las siguientes características:
 
-**Características**
+    * Es un comprobante de venta que acredita la adquisición de bienes o servicios por parte de turistas extranjeros.
+    * Incluye el impuesto al valor agregado (IVA) que se puede reintegrar al turista al momento de su salida del país.
+    * Se emite en pesos argentinos.
+    * Tiene un código QR que permite al turista consultarla en la web de la AFIP.
 
-La factura T tiene las siguientes características:
+    **Requisitos**
 
-* Es un comprobante de venta que acredita la adquisición de bienes o servicios por parte de turistas extranjeros.
-* Incluye el impuesto al valor agregado (IVA) que se puede reintegrar al turista al momento de su salida del país.
-* Se emite en pesos argentinos.
-* Tiene un código QR que permite al turista consultarla en la web de la AFIP.
+    Para emitir una factura T, los contribuyentes deben cumplir con los siguientes requisitos:
 
-**Requisitos**
+    * Estar inscriptos en el IVA.
+    * Tener un certificado de autorización electrónica (CAE) emitido por la Administración Federal de Ingresos Públicos (AFIP).
+    * Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
 
-Para emitir una factura T, los contribuyentes deben cumplir con los siguientes requisitos:
+    **Emisión**
 
-* Estar inscriptos en el IVA.
-* Tener un certificado de autorización electrónica (CAE) emitido por la Administración Federal de Ingresos Públicos (AFIP).
-* Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
+    La factura T se puede emitir mediante webservices o bien a través del servicio "Comprobantes en Línea", utilizando un punto de venta habilitado, que se encuentre asociado al sistema de emisión elegido.
 
-**Emisión**
+    **Reintegro**
 
-La factura T se puede emitir mediante webservices o bien a través del servicio "Comprobantes en Línea", utilizando un punto de venta habilitado, que se encuentre asociado al sistema de emisión elegido.
+    El turista extranjero puede solicitar el reintegro del IVA correspondiente a la factura T en el momento de su salida del país. Para ello, debe presentar la factura T original y una copia del pasaporte o documento de identidad.
 
-**Reintegro**
+    **Beneficios**
 
-El turista extranjero puede solicitar el reintegro del IVA correspondiente a la factura T en el momento de su salida del país. Para ello, debe presentar la factura T original y una copia del pasaporte o documento de identidad.
+    La factura T ofrece una serie de beneficios para los turistas extranjeros, entre los que se encuentran:
 
-**Beneficios**
+    * La posibilidad de recuperar el IVA pagado por sus consumos en Argentina.
+    * La facilidad de obtener el reintegro del IVA en el momento de su salida del país.
 
-La factura T ofrece una serie de beneficios para los turistas extranjeros, entre los que se encuentran:
+    **Conclusión**
 
-* La posibilidad de recuperar el IVA pagado por sus consumos en Argentina.
-* La facilidad de obtener el reintegro del IVA en el momento de su salida del país.
+    La factura T es un comprobante de venta que ofrece una serie de beneficios para los turistas extranjeros que realizan consumos en Argentina.
 
-**Conclusión**
+??? note "¿Cuál es el plazo para cancelar una factura?"
 
-La factura T es un comprobante de venta que ofrece una serie de beneficios para los turistas extranjeros que realizan consumos en Argentina.
+    En Argentina, el plazo para cancelar una factura es de **24 horas** a partir de la fecha de emisión.
 
-## ¿Cuál es el plazo para cancelar una factura?
+    Sin embargo, existen excepciones a este plazo:
 
-En Argentina, el plazo para cancelar una factura es de **24 horas** a partir de la fecha de emisión.
+    * **Facturas de Crédito Electrónica MiPyME**. El plazo para cancelar una Factura de Crédito Electrónica MiPyME es de **21 días** a partir de la fecha de emisión.
+    * **Facturas emitidas antes de 2022**. Las facturas emitidas antes de 2022 se pueden cancelar a más tardar el **31 de diciembre de 2022**.
 
-Sin embargo, existen excepciones a este plazo:
+    Para cancelar una factura, el emisor debe realizar un trámite ante la Administración Federal de Ingresos Públicos (AFIP). Este trámite se puede realizar de forma online a través del servicio "Comprobantes en Línea".
 
-* **Facturas de Crédito Electrónica MiPyME**. El plazo para cancelar una Factura de Crédito Electrónica MiPyME es de **21 días** a partir de la fecha de emisión.
-* **Facturas emitidas antes de 2022**. Las facturas emitidas antes de 2022 se pueden cancelar a más tardar el **31 de diciembre de 2022**.
+    **Requisitos para cancelar una factura**
 
-Para cancelar una factura, el emisor debe realizar un trámite ante la Administración Federal de Ingresos Públicos (AFIP). Este trámite se puede realizar de forma online a través del servicio "Comprobantes en Línea".
+    Para cancelar una factura, el emisor debe cumplir con los siguientes requisitos:
 
-**Requisitos para cancelar una factura**
+    * Estar inscripto en el IVA.
+    * Tener un certificado de autorización electrónica (CAE) emitido por la AFIP.
+    * Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
 
-Para cancelar una factura, el emisor debe cumplir con los siguientes requisitos:
+    **Procedimiento para cancelar una factura**
 
-* Estar inscripto en el IVA.
-* Tener un certificado de autorización electrónica (CAE) emitido por la AFIP.
-* Contar con un sistema de facturación electrónica compatible con los requisitos de la AFIP.
+    El procedimiento para cancelar una factura es el siguiente:
 
-**Procedimiento para cancelar una factura**
+    1. Ingresar al servicio "Comprobantes en Línea" de la AFIP.
+    2. Seleccionar la factura que se desea cancelar.
+    3. Indicar el motivo de la cancelación.
+    4. Enviar la solicitud de cancelación.
 
-El procedimiento para cancelar una factura es el siguiente:
+    La AFIP emitirá un comprobante de cancelación que debe ser conservado por el emisor.
 
-1. Ingresar al servicio "Comprobantes en Línea" de la AFIP.
-2. Seleccionar la factura que se desea cancelar.
-3. Indicar el motivo de la cancelación.
-4. Enviar la solicitud de cancelación.
+    **Sanciones por no cancelar una factura**
 
-La AFIP emitirá un comprobante de cancelación que debe ser conservado por el emisor.
-
-**Sanciones por no cancelar una factura**
-
-Si un emisor no cancela una factura dentro del plazo establecido, puede ser sancionado por la AFIP. Las sanciones pueden consistir en multas, clausuras o incluso la suspensión de la actividad.
+    Si un emisor no cancela una factura dentro del plazo establecido, puede ser sancionado por la AFIP. Las sanciones pueden consistir en multas, clausuras o incluso la suspensión de la actividad.
 
 <div class="margin-top"></div>
