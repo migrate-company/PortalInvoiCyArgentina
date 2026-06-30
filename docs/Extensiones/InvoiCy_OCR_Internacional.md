@@ -74,7 +74,7 @@ Todas las solicitudes a la API de InvoiCy OCR Internacional utilizan un mecanism
 
 ### Generación del hash en el registro de empresa
 
-Para el registro de empresa, el hash MD5 se genera a partir de la concatenación de la clave del socio con el JSON del cuerpo de la solicitud:
+Para el registro de empresa, el hash MD5 se genera a partir de la concatenación de la **clave del socio** con el **JSON del cuerpo de la solicitud**:
 
 ```
 MD5(clave_del_socio + json_del_cuerpo)
