@@ -223,12 +223,12 @@ POST BASE_URL/DocumentHandler/AddDocument
         <tr>
             <td><code>mimeType</code></td>
             <td>string</td>
-            <td>Tipo MIME del archivo enviado. Ver <a href="#formatos-de-arquivo-suportados">formatos formatos soportados</a>.</td>
+            <td>Tipo MIME del archivo enviado. Ver <a href="#formatos-de-archivo-soportados">formatos soportados</a>.</td>
         </tr>
         <tr>
             <td><code>processor</code></td>
             <td>integer</td>
-            <td>Identificador del procesador de IA. Ver <a href="#processadores-disponiveis">procesadores disponible</a>.</td>
+            <td>Identificador del procesador de IA. Ver <a href="#procesadores-disponibles">procesadores disponible</a>.</td>
         </tr>
     </tbody>
 </table>
