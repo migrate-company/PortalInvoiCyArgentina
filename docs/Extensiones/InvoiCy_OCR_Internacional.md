@@ -151,8 +151,6 @@ Con la empresa registrada, envíe el archivo de la factura para su procesamiento
 
 **Importante:** La fecha y hora devueltas en la respuesta se proporcionan en formato **UTC**.
 
-**Importante:** A data e hora retornadas na resposta são fornecidas em formato **UTC**.
-
 Ejemplo de estructura JSON para el envío del documento:
 ```json
 {
