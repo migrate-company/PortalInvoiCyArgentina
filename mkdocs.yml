@@ -113,6 +113,7 @@ extra:
     py: ./assets/img/flags/py.svg
     uy: ./assets/img/flags/uy.svg
     cl: ./assets/img/flags/cl.svg
+  exibir_portal_chile: false # true: mostra a bandeira e o link do portal do Chile
 
 extra_css:
   - assets/stylesheets/components.css
